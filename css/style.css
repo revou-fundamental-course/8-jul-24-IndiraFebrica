@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.kalkulator{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+label[for="gender"]{
+    margin-top: 10px;
+    display: block;
+}
+label[for="weight"]{
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+label[for="age"]{
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+label[for="height"]{
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+input[type="radio"]{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+input[type="number"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: #B6C7AA;
+    color: black;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+input[type="reset"]{
+    background-color: #f0f0f0;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #597445;
+}
+input[type="reset"]:hover{
+    background-color: #F3F7EC;
+}
+
+#bmiform{
+    background-color: #EEEEEE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 560px;
+} 
+
+#bmi-result{
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+.hasil-bmi{
+    padding: 20px 20px 0 20px;
+    text-align: center;
+}
+
+.bmi-value{
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.bmi-category{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.bmi-description{
+    padding: 0 20px 20px 20px;
+}
